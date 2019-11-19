@@ -18,18 +18,20 @@ header ul li {
 footer ul li {
     display: flex;
     width: 150px;
-    height: 50px;
+    height: 150px;
     justify-content: center;
-    align-items: center;
 }
 footer ul {
-    background-color: gray;
+    background-color: black;
 }
 header ul {
-    background-color: gray;
+    background-color: purple;
 }
-li:hover {
-    background-color: red;
+header li:hover {
+    background-color: blue;
+}
+footer li:hover {
+    background-color: yellow;
 }
 ul {
     display: flex;
